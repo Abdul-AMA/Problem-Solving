@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CountApplesAndOranges {
+public class AppleAndOrange {
 
     public static void main(String[] args) {
         List<Integer> apples = new ArrayList<>();
