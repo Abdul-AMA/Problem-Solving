@@ -18,22 +18,22 @@ public class HackerRankinaString {
 
     public static String hackerrankInString(String s) {
         // Write your code here
-        String yes=  "YES";
+        String yes = "YES";
         String no = "NO";
         String hackerrank = "hackerrank";
         int indexHack = 0;
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == hackerrank.charAt(indexHack)){
+            if (s.charAt(i) == hackerrank.charAt(indexHack)) {
                 indexHack++;
-                if (indexHack == hackerrank.length()){
+                if (indexHack == hackerrank.length()) {
                     break;
                 }
             }
         }
 
-        if (indexHack == hackerrank.length()){
+        if (indexHack == hackerrank.length()) {
             return yes;
-        }else
+        } else
             return no;
     }
 
