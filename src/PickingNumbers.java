@@ -19,9 +19,15 @@ public class PickingNumbers {
     public static int pickingNumbers(List<Integer> a) {
         // Write your code here
         int max = 0;
+        boolean is = true;
+        int count = 0;
 
-        for (int i = 0; i < a.size()-1; i++) {
-            for (int j = 0; j < i; j++) {
+        List <Integer>temp = new ArrayList<>();
+
+        for (int i = 0; i < a.size(); i++) {
+            for (int j = 0; j <a.size(); j++) {
+
+
 
             }
         }
@@ -36,3 +42,20 @@ public class PickingNumbers {
     }
 
 }
+//    int pickingNumbers(int a_count, int* a)
+//    {
+//        int i , j, max=0, counter = 0;
+//
+//        for(i = 0 ; i <= a_count-1 ; i++)
+//        {
+//            for(j = 0 ; j <= a_count -1 ; j++)
+//            {
+//                if(a[j] == a[i] || a[j] == a[i] +1)  {counter++;}
+//            }
+//
+//            if(max < counter){max = counter;}
+//            counter = 0;
+//        }
+//
+//        return max;
+//    }
