@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class BuildAString {
     public static void main(String[] args) {
 

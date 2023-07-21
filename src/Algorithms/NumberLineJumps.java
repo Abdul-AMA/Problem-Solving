@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class NumberLineJumps {
     public static void main(String[] args) {
         System.out.print(kangaroo(2, 1, 1, 2));

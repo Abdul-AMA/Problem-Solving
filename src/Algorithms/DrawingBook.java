@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class DrawingBook {
     public static void main(String[] args) {
 

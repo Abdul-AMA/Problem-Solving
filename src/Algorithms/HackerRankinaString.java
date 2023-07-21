@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class HackerRankinaString {
 
     public static void main(String[] args) {

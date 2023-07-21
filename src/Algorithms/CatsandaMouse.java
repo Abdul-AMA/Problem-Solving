@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class CatsandaMouse {
     public static void main(String[] args) {
 

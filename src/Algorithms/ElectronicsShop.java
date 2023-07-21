@@ -1,3 +1,5 @@
+package Algorithms;
+
 import static java.lang.System.in;
 
 public class ElectronicsShop {
